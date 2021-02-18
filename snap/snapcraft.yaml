@@ -1,0 +1,18 @@
+name: ultron-clock
+version: 0.0.1
+summary: Ultron Clock
+description: Ultron Clock
+confinement: strict
+base: core18
+grade: stable
+
+apps:
+  ultron-clock:
+    command: ultron_clock
+    extensions: [flutter-master]
+
+parts:
+  ultron-clock:
+    source: .
+    source-subdir: ultron_clock
+    plugin: flutter

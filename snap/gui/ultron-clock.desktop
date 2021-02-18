@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ultron Clock
+Comment=Ultron Clock
+Icon=${SNAP}/meta/gui/icon.png
+Exec=ultron-clock %U
+Terminal=false
+Type=Application
+Categories=Utility;Clock;
+Keywords=clock;
+StartupNotify=false
